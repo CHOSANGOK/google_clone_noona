@@ -58,9 +58,8 @@ main {
 }
 section {
   text-align: center;
-}
-.google_logo {
-  margin-top: 230px;
+  position: absolute;
+  top: 30%;
 }
 
 .search-box {
@@ -114,18 +113,14 @@ footer {
 }
 
 footer > div {
-  margin-bottom: 7px;
-  padding: 12px;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
 }
 footer > :first-child {
   border-bottom: 1px solid #95999e7e;
 }
 
-footer > div:nth-child(2) {
-  display: flex;
-  justify-content: space-between;
-}
-
 footer > div:nth-child(2) a {
-  padding: 0 10px 0 10px;
+  padding-right: 15px;
 }
